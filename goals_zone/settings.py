@@ -35,7 +35,7 @@ EMAIL_PORT = os.environ.get('EMAIL_PORT')
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
-ALLOWED_HOSTS = ['goals.zone', 'videogoals.meneses.pt', '127.0.0.1','*.ondigitalocean.app']
+ALLOWED_HOSTS = ['goals.zone', 'videogoals.meneses.pt', '127.0.0.1','my-app-5vf2g.ondigitalocean.app','24.com.ge']
 
 # Application definition
 
