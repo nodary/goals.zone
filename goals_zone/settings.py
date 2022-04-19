@@ -35,7 +35,7 @@ EMAIL_PORT = os.environ.get('EMAIL_PORT')
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
-ALLOWED_HOSTS = ['goals.zone', 'videogoals.meneses.pt', '127.0.0.1']
+ALLOWED_HOSTS = ['goals.zone', 'videogoals.meneses.pt', '127.0.0.1','*.ondigitalocean.app']
 
 # Application definition
 
@@ -156,7 +156,7 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.environ.get('STATIC_ROOT')
+STATIC_ROOT = os.environ.get('BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
