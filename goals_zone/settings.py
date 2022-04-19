@@ -156,7 +156,7 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.environ.get('BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.environ.get(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
